@@ -11,4 +11,5 @@ function destructivelyUpdateDriverWithKeyAndValue(driver, key, value) {
 function deleteFromDriverByKey(driver, key) {
   
    const dupObject = Object.assign({}, driver)
+   delete dupObject[key]
 }

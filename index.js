@@ -1,3 +1,3 @@
-function updateDriverWithKeyAndValue(driverObject, key, value) {
-  return Object.assign({}, driverObject, {[key]: value})
+function updateDriverWithKeyAndValue(driver, key, value) {
+  return Object.assign({}, driver, {[key]: value})
 }

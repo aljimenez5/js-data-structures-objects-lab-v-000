@@ -12,4 +12,5 @@ function deleteFromDriverByKey(driver, key) {
   
    const dupObject = Object.assign({}, driver)
    delete dupObject[key]
+   return dupObject
 }

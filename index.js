@@ -14,3 +14,7 @@ function deleteFromDriverByKey(driver, key) {
    delete dupObject[key]
    return dupObject
 }
+
+function destructivelyDeleteFromDriverByKey(driver, key) {
+  
+}
